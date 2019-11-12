@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="week3.day3.CreateLead">
+        <methods>
+          <include name="runCreateLead"/>
+        </methods>
+      </class> <!-- week3.day3.CreateLead -->
+      <class name="week3.day3.EditLead">
+        <methods>
+          <include name="runEditLead"/>
+        </methods>
+      </class> <!-- week3.day3.EditLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
